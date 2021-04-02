@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  padding: 60px 15px;
+}
+
+.footer-address {
+  margin-top: 20px;
+}
+
+.footer-address-list__item:not(:first-child) {
+  margin-top: 9px;
+}
+
+.footer-address-list__street {
+  color: var(--primary-white-color);
+}
+
+.footer-address-list__contacts {
+  color: var(--adress-white-color);
+}
+
+.footer-join {
+  margin-left: 70px;
+}
