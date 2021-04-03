@@ -1,8 +1,8 @@
-.customers .conteiner {
+.partners .conteiner {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
 }
-.customers__heading {
+.partners__heading {
   font-family: var(--main-font-family);
   font-weight: bold;
   font-size: 36px;
@@ -12,12 +12,12 @@
   color: var(--logo-color);
   margin-bottom: 50px;
 }
-.customers__list {
+.partners__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.customers__link {
+.partners__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,12 +32,12 @@
   &:focus {
     border: 1px solid #2196f3;
   }
-  &:hover .customers__icon,
-  &:focus .customers__icon {
+  &:hover .partners__icon,
+  &:focus .partners__icon {
     fill: #2196f3;
   }
 }
-.customers__icon {
+.partners__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
