@@ -1,24 +1,24 @@
 @import './utils/variables';
-@import './utils/visually-hidden';
-@import './utils/placeholders';
-
 @import './base/common';
-@import './base/container';
-
-@import './components/logo';
-@import './components/header';
-@import './components/active-page';
-@import './components/section-title';
-@import './components/team-social-list';
+@import './utils/visually-hidden';
+@import './base/conteiner';
+@import './layout/header';
+@import './components/navigation-conteiner';
+@import './components/main-logo';
+@import './components/contact-list';
+@import './layout/hero';
+@import './components/hero-btn';
+@import './layout/quality-section';
+@import './layout/work-section';
+@import './layout/team-section';
 @import './components/social-list';
+@import './layout/costomers';
+@import './layout/footer';
+@import './components/footer-logo';
+@import './components/footer-adress';
+@import './components/footer-social-list';
 @import './components/footer-form';
 @import './components/backdrop';
-@import './components/modal';
+@import './components/modal-window';
 @import './components/modal-form';
-@import './components/footer';
-
-@import './layout/hero';
-@import './layout/advantages';
-@import './layout/activity';
-@import './layout/team';
-@import './layout/clients';
+@import './layout/cards-portfolio';

@@ -1,61 +1,23 @@
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../img/main/bcg.jpg);
+  background-color: var(--background-hero-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1600px;
-  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero .conteiner {
+  text-align: center;
 }
 
-.hero-container__title {
+.hero__heading {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
-
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero-container__btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
-  display: block;
-  padding: 10px 32px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-
-  border-radius: 4px;
-  border: 1px solid transparent;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  &:hover,
-  &:focus {
-    background-color: #188ce8;
-  }
-
-  &:active {
-    outline: none;
-  }
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--white-color);
+  max-width: 696px;
+  margin: auto;
 }

@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .conteiner {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer {
+  background-color: var(--background-hero-color);
+}
